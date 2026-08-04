@@ -19,16 +19,15 @@ export const SOCIAL_LINKS = {
 
 export const STATS = [
 { label: 'Years Experience', value: '2+' },
-{ label: 'Projects Completed', value: '50+' },
 { label: 'Technologies', value: '15+' },
 { label: 'Client Satisfaction', value: '98%' }
 ];
 
-export const ABOUT_STATS = [
-{ label: 'Happy Clients', value: '45+' },
-{ label: 'Code Commits',  value: '2.5K+' },
-{ label: 'GitHub Stars',  value: '500+' }
-];
+// export const ABOUT_STATS = [
+// { label: 'Happy Clients', value: '45+' },
+// { label: 'Code Commits',  value: '2.5K+' },
+// { label: 'GitHub Stars',  value: '500+' }
+// ];
 
 export const NAV_LINKS = [
 {id: 'about', label: 'About' },
