@@ -8,7 +8,7 @@ import {
   SiTailwindcss,
   SiMongodb,
 } from "react-icons/si";
-import { ABOUT_STATS, PERSONAL_INFO } from "../../utils/constants";
+import { PERSONAL_INFO } from "../../utils/constants";
 import FadeIn from "../animations/FadeIn";
 import RadialGradientBackground from "../background/RadialGradientBackground";
 
@@ -60,7 +60,7 @@ const About = () => {
                 </div>
               </FadeIn>
             </div>
-            <FadeIn delay={300}>
+            {/* <FadeIn delay={300}>
               <div className="grid grid-cols-3 gap-8">
                 {ABOUT_STATS.map((stat, index) => (
                   <div key={index} className="relative">
@@ -74,7 +74,7 @@ const About = () => {
                   </div>
                 ))}
               </div>
-            </FadeIn>
+            </FadeIn> */}
             <FadeIn delay={400}>
               <button
                 onClick={() => window.open(PERSONAL_INFO.resume, "_blank")}
